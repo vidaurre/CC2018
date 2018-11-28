@@ -1,3 +1,6 @@
+% It needs the HMM-MAR toolbox, which can be forked from here: 
+% https://github.com/OHBA-analysis/HMM-MAR
+
 mydir = '~/MATLAB/';
 addpath(genpath([ mydir 'HMM-MAR']))
 load('data/subj9_sess1.mat')
